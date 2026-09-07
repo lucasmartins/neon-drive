@@ -1,0 +1,409 @@
+[
+  {
+    "name": "adler2",
+    "version": "2.0.1",
+    "license": "0BSD OR MIT OR Apache-2.0",
+    "authors": [
+      "Jonas Schievink <jonasschievink@gmail.com>",
+      "oyvindln <oyvindln@users.noreply.github.com>"
+    ],
+    "repository": "https://github.com/oyvindln/adler2",
+    "notices": [
+      "licenses/adler2-2.0.1/LICENSE-0BSD",
+      "licenses/adler2-2.0.1/LICENSE-APACHE",
+      "licenses/adler2-2.0.1/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "allocator-api2",
+    "version": "0.2.21",
+    "license": "MIT OR Apache-2.0",
+    "authors": [
+      "Zakarum <zaq.dev@icloud.com>"
+    ],
+    "repository": "https://github.com/zakarumych/allocator-api2",
+    "notices": [
+      "licenses/allocator-api2-0.2.21/LICENSE-APACHE",
+      "licenses/allocator-api2-0.2.21/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "autocfg",
+    "version": "1.5.1",
+    "license": "Apache-2.0 OR MIT",
+    "authors": [
+      "Josh Stone <cuviper@gmail.com>"
+    ],
+    "repository": "https://github.com/cuviper/autocfg",
+    "notices": [
+      "licenses/autocfg-1.5.1/LICENSE-APACHE",
+      "licenses/autocfg-1.5.1/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "bitflags",
+    "version": "1.3.2",
+    "license": "MIT/Apache-2.0",
+    "authors": [
+      "The Rust Project Developers"
+    ],
+    "repository": "https://github.com/bitflags/bitflags",
+    "notices": [
+      "licenses/bitflags-1.3.2/LICENSE-APACHE",
+      "licenses/bitflags-1.3.2/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "bytemuck",
+    "version": "1.25.2",
+    "license": "Zlib OR Apache-2.0 OR MIT",
+    "authors": [
+      "Lokathor <zefria@gmail.com>"
+    ],
+    "repository": "https://github.com/Lokathor/bytemuck",
+    "notices": [
+      "licenses/bytemuck-1.25.2/LICENSE-APACHE",
+      "licenses/bytemuck-1.25.2/LICENSE-MIT",
+      "licenses/bytemuck-1.25.2/LICENSE-ZLIB"
+    ]
+  },
+  {
+    "name": "byteorder",
+    "version": "1.5.0",
+    "license": "Unlicense OR MIT",
+    "authors": [
+      "Andrew Gallant <jamslam@gmail.com>"
+    ],
+    "repository": "https://github.com/BurntSushi/byteorder",
+    "notices": [
+      "licenses/byteorder-1.5.0/COPYING",
+      "licenses/byteorder-1.5.0/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "cfg-if",
+    "version": "1.0.4",
+    "license": "MIT OR Apache-2.0",
+    "authors": [
+      "Alex Crichton <alex@alexcrichton.com>"
+    ],
+    "repository": "https://github.com/rust-lang/cfg-if",
+    "notices": [
+      "licenses/cfg-if-1.0.4/LICENSE-APACHE",
+      "licenses/cfg-if-1.0.4/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "color_quant",
+    "version": "1.1.0",
+    "license": "MIT",
+    "authors": [
+      "nwin <nwin@users.noreply.github.com>"
+    ],
+    "repository": "https://github.com/image-rs/color_quant.git",
+    "notices": [
+      "licenses/color_quant-1.1.0/LICENSE"
+    ]
+  },
+  {
+    "name": "core_maths",
+    "version": "0.1.1",
+    "license": "MIT",
+    "authors": [
+      "Robert Bastian <me@robertbastian.dev"
+    ],
+    "repository": "https://github.com/robertbastian/core_maths",
+    "notices": [
+      "licenses/core_maths-0.1.1/LICENSE"
+    ]
+  },
+  {
+    "name": "crc32fast",
+    "version": "1.5.1",
+    "license": "MIT OR Apache-2.0",
+    "authors": [
+      "Sam Rijs <srijs@airpost.net>",
+      "Alex Crichton <alex@alexcrichton.com>"
+    ],
+    "repository": "https://github.com/srijs/rust-crc32fast",
+    "notices": [
+      "licenses/crc32fast-1.5.1/LICENSE-APACHE",
+      "licenses/crc32fast-1.5.1/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "equivalent",
+    "version": "1.0.2",
+    "license": "Apache-2.0 OR MIT",
+    "authors": [],
+    "repository": "https://github.com/indexmap-rs/equivalent",
+    "notices": [
+      "licenses/equivalent-1.0.2/LICENSE-APACHE",
+      "licenses/equivalent-1.0.2/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "fdeflate",
+    "version": "0.3.7",
+    "license": "MIT OR Apache-2.0",
+    "authors": [
+      "The image-rs Developers"
+    ],
+    "repository": "https://github.com/image-rs/fdeflate",
+    "notices": [
+      "licenses/fdeflate-0.3.7/LICENSE-APACHE",
+      "licenses/fdeflate-0.3.7/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "flate2",
+    "version": "1.1.10",
+    "license": "MIT OR Apache-2.0",
+    "authors": [
+      "Alex Crichton <alex@alexcrichton.com>",
+      "Josh Triplett <josh@joshtriplett.org>"
+    ],
+    "repository": "https://github.com/rust-lang/flate2-rs",
+    "notices": [
+      "licenses/flate2-1.1.10/LICENSE-APACHE",
+      "licenses/flate2-1.1.10/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "foldhash",
+    "version": "0.1.5",
+    "license": "Zlib",
+    "authors": [
+      "Orson Peters <orsonpeters@gmail.com>"
+    ],
+    "repository": "https://github.com/orlp/foldhash",
+    "notices": [
+      "licenses/foldhash-0.1.5/LICENSE"
+    ]
+  },
+  {
+    "name": "fontdue",
+    "version": "0.9.4",
+    "license": "MIT OR Apache-2.0 OR Zlib",
+    "authors": [
+      "Joe Cumbo <mooman219@gmail.com>"
+    ],
+    "repository": "https://github.com/mooman219/fontdue",
+    "notices": [
+      "licenses/fontdue-0.9.4/LICENSE-APACHE",
+      "licenses/fontdue-0.9.4/LICENSE-MIT",
+      "licenses/fontdue-0.9.4/LICENSE-ZLIB"
+    ]
+  },
+  {
+    "name": "glam",
+    "version": "0.27.0",
+    "license": "MIT OR Apache-2.0",
+    "authors": [
+      "Cameron Hart <cameron.hart@gmail.com>"
+    ],
+    "repository": "https://github.com/bitshifter/glam-rs",
+    "notices": [
+      "licenses/glam-0.27.0/LICENSE-APACHE",
+      "licenses/glam-0.27.0/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "hashbrown",
+    "version": "0.15.5",
+    "license": "MIT OR Apache-2.0",
+    "authors": [
+      "Amanieu d'Antras <amanieu@gmail.com>"
+    ],
+    "repository": "https://github.com/rust-lang/hashbrown",
+    "notices": [
+      "licenses/hashbrown-0.15.5/LICENSE-APACHE",
+      "licenses/hashbrown-0.15.5/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "image",
+    "version": "0.24.9",
+    "license": "MIT OR Apache-2.0",
+    "authors": [
+      "The image-rs Developers"
+    ],
+    "repository": "https://github.com/image-rs/image",
+    "notices": [
+      "licenses/image-0.24.9/LICENSE-APACHE",
+      "licenses/image-0.24.9/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "libm",
+    "version": "0.2.16",
+    "license": "MIT",
+    "authors": [
+      "Alex Crichton <alex@alexcrichton.com>",
+      "Amanieu d'Antras <amanieu@gmail.com>",
+      "Jorge Aparicio <japaricious@gmail.com>",
+      "Trevor Gross <tg@trevorgross.com>"
+    ],
+    "repository": "https://github.com/rust-lang/compiler-builtins",
+    "notices": [
+      "licenses/libm-0.2.16/LICENSE.txt"
+    ]
+  },
+  {
+    "name": "macroquad",
+    "version": "0.4.14",
+    "license": "MIT OR Apache-2.0",
+    "authors": [
+      "not-fl3 <not.fl3@gmail.com>"
+    ],
+    "repository": "https://github.com/not-fl3/macroquad",
+    "notices": [
+      "licenses/macroquad-0.4.14/LICENSE-APACHE",
+      "licenses/macroquad-0.4.14/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "macroquad_macro",
+    "version": "0.1.8",
+    "license": "MIT/Apache-2.0",
+    "authors": [
+      "not-fl3 <not.fl3@gmail.com>"
+    ],
+    "repository": "https://github.com/not-fl3/macroquad",
+    "notices": [
+      "licenses/macroquad_macro-0.1.8/LICENSE-APACHE",
+      "licenses/macroquad_macro-0.1.8/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "miniquad",
+    "version": "0.4.8",
+    "license": "MIT OR Apache-2.0",
+    "authors": [
+      "not-fl3 <not.fl3@gmail.com>"
+    ],
+    "repository": "https://github.com/not-fl3/miniquad",
+    "notices": [
+      "licenses/miniquad-0.4.8/LICENSE-APACHE",
+      "licenses/miniquad-0.4.8/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "miniz_oxide",
+    "version": "0.8.9",
+    "license": "MIT OR Zlib OR Apache-2.0",
+    "authors": [
+      "Frommi <daniil.liferenko@gmail.com>",
+      "oyvindln <oyvindln@users.noreply.github.com>",
+      "Rich Geldreich richgel99@gmail.com"
+    ],
+    "repository": "https://github.com/Frommi/miniz_oxide/tree/master/miniz_oxide",
+    "notices": [
+      "licenses/miniz_oxide-0.8.9/LICENSE",
+      "licenses/miniz_oxide-0.8.9/LICENSE-APACHE.md",
+      "licenses/miniz_oxide-0.8.9/LICENSE-MIT.md",
+      "licenses/miniz_oxide-0.8.9/LICENSE-ZLIB.md"
+    ]
+  },
+  {
+    "name": "miniz_oxide",
+    "version": "0.9.1",
+    "license": "MIT OR Zlib OR Apache-2.0",
+    "authors": [
+      "Frommi <daniil.liferenko@gmail.com>",
+      "oyvindln <oyvindln@users.noreply.github.com>",
+      "Rich Geldreich richgel99@gmail.com"
+    ],
+    "repository": "https://github.com/Frommi/miniz_oxide/tree/master/miniz_oxide",
+    "notices": [
+      "licenses/miniz_oxide-0.9.1/LICENSE",
+      "licenses/miniz_oxide-0.9.1/LICENSE-APACHE.md",
+      "licenses/miniz_oxide-0.9.1/LICENSE-MIT.md",
+      "licenses/miniz_oxide-0.9.1/LICENSE-ZLIB.md"
+    ]
+  },
+  {
+    "name": "num-traits",
+    "version": "0.2.19",
+    "license": "MIT OR Apache-2.0",
+    "authors": [
+      "The Rust Project Developers"
+    ],
+    "repository": "https://github.com/rust-num/num-traits",
+    "notices": [
+      "licenses/num-traits-0.2.19/LICENSE-APACHE",
+      "licenses/num-traits-0.2.19/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "png",
+    "version": "0.17.16",
+    "license": "MIT OR Apache-2.0",
+    "authors": [
+      "The image-rs Developers"
+    ],
+    "repository": "https://github.com/image-rs/image-png",
+    "notices": [
+      "licenses/png-0.17.16/LICENSE-APACHE",
+      "licenses/png-0.17.16/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "quad-rand",
+    "version": "0.2.3",
+    "license": "MIT",
+    "authors": [
+      "not-fl3 <not.fl3@gmail.com>"
+    ],
+    "repository": "https://github.com/not-fl3/quad-rand",
+    "notices": []
+  },
+  {
+    "name": "quad-snd",
+    "version": "0.2.8",
+    "license": "MIT/Apache-2.0",
+    "authors": [
+      "Fedor Logachev <not.fl3@gmail.com>"
+    ],
+    "repository": null,
+    "notices": []
+  },
+  {
+    "name": "simd-adler32",
+    "version": "0.3.10",
+    "license": "MIT",
+    "authors": [
+      "Marvin Countryman <me@maar.vin>"
+    ],
+    "repository": "https://github.com/mcountryman/simd-adler32",
+    "notices": [
+      "licenses/simd-adler32-0.3.10/LICENSE.md"
+    ]
+  },
+  {
+    "name": "ttf-parser",
+    "version": "0.25.1",
+    "license": "MIT OR Apache-2.0",
+    "authors": [
+      "Caleb Maclennan <caleb@alerque.com>",
+      "Laurenz Stampfl <laurenz.stampfl@gmail.com>",
+      "Yevhenii Reizner <razrfalcon@gmail.com>",
+      "\u062e\u0627\u0644\u062f \u062d\u0633\u0646\u064a (Khaled Hosny) <khaled@aliftype.com>"
+    ],
+    "repository": "https://github.com/harfbuzz/ttf-parser",
+    "notices": [
+      "licenses/ttf-parser-0.25.1/LICENSE-APACHE",
+      "licenses/ttf-parser-0.25.1/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "zlib-rs",
+    "version": "0.6.7",
+    "license": "Zlib",
+    "authors": [],
+    "repository": "https://github.com/trifectatechfoundation/zlib-rs",
+    "notices": [
+      "licenses/zlib-rs-0.6.7/LICENSE"
+    ]
+  }
+]

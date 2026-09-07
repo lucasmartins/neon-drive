@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width,initial-scale=1">
+ <title>Neon Drive — after midnight</title>
+ <style>
+  html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#02030c;color:#cddbea;font:16px system-ui}
+  canvas{width:100%;height:100%;display:block;outline:0}
+  [hidden]{display:none!important}
+  #entry{position:absolute;inset:0;display:grid;place-items:center;background:radial-gradient(ellipse at 50% 100%,#211232,transparent 65%),#02030c}
+  #entry section{max-width:34rem;padding:28px;text-align:center}
+  .eyebrow{color:#818da9;letter-spacing:.25em;font-size:11px;text-transform:uppercase}
+  h1{font-size:clamp(36px,7vw,64px);font-weight:400;letter-spacing:.08em;margin:18px 0}
+  .subtitle{color:#97a6bf;line-height:1.6}
+  button{font:inherit;color:#dcebf6;border:1px solid #536e85;background:#101a2a;padding:13px 28px;border-radius:4px;cursor:pointer}
+  button:hover{background:#1b2940;border-color:#8eabc2}
+  button:focus-visible{outline:2px solid #92cde5;outline-offset:5px}
+  #start{margin:20px 0}
+  .keys{font-size:12px;line-height:2;color:#818da9}
+  #notice{position:absolute;right:24px;bottom:24px;color:#8790ac;font:13px system-ui;pointer-events:none}
+  #audio-unlock{position:absolute;right:24px;top:24px;font-size:13px}
+  #error{position:absolute;inset:40% 10%;color:#e5b5dd;font:18px system-ui;text-align:center}
+ </style>
+</head>
+<body>
+ <canvas id="glcanvas" tabindex="0" aria-label="Neon night driving scene. Hold Space to boost, R opens radio, M toggles sound, Up and Down adjust volume, Escape stops."></canvas>
+ <main id="entry">
+  <section aria-labelledby="title">
+   <p class="eyebrow">After midnight</p>
+   <h1 id="title">NEON DRIVE</h1>
+   <p class="subtitle">An endless night drive.<br>Start to enable music and enter the city.</p>
+   <button id="start" type="button" autofocus>Start drive</button>
+   <p class="keys">SPACE · boost &nbsp; R · radio &nbsp; M · mute<br>↑ / ↓ · volume &nbsp; ESC · stop</p>
+  </section>
+ </main>
+ <div id="notice" role="status"></div>
+ <button id="audio-unlock" type="button" hidden>Enable sound</button>
+ <div id="error" role="alert" hidden></div>
+ <script src="bridge.js"></script>
+ <script src="mq_js_bundle.js"></script>
+ <script>
+  if(!window.ndConfigError){
+   miniquad_add_plugin({register_plugin:window.ndRegister,name:'neon_drive',version:'0.1.0'});
+   document.querySelector('#start').addEventListener('click',()=>window.ndStart(()=>load('neon-drive.wasm')));
+  }
+ </script>
+</body>
+</html>
